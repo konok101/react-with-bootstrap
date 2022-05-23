@@ -4,12 +4,15 @@ import './App.css';
  */
 import { Button } from 'react-bootstrap';
 import Card from './components/Card/Card';
+import CardGroup1 from './components/CardGroup1/CardGroup1';
  
 
 function App() {
   return (
     <div className="App">
- <Card></Card>
+  <Card></Card>
+ <CardGroup1></CardGroup1>
+
  <Button variant='danger'>My button </Button>
     </div>
   );
